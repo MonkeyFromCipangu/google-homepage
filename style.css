@@ -1,5 +1,5 @@
 *   {
-    padding: 0;
+    padding: 1;
     margin: 2;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
@@ -35,13 +35,12 @@ a:link, a:visited {
     border-width: 0.5px;
     color:black;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
   }
 
 header {
     display: flex;
-    border-style: solid;
-    height: 60px;
+    height: 40px;
     align-items: center;
 }
 
@@ -60,12 +59,11 @@ header {
 
 #centerpiece {
     margin: 100px auto;
-    border-style: solid;
 }
 
-#searchbutton {
-    margin-top: 20px;
-    
+form {
+    display: flex;
+    justify-content: center;
 }
 
 #navbar {
@@ -75,13 +73,17 @@ header {
     background-repeat: no-repeat;
     height: 25px;
     width: 700px;
-    padding: 15px 20px 15px 40px;
+    padding: 15px 20px 15px 40px; 
+}
+
+#searchbutton {
+    margin-top: 20px;
+
 }
 
 footer {
-    margin-top: 300px;
+    margin-top: 310px;
     display: flex;
-    border-style: solid;
 }
 
 #bottom_left_menu {
